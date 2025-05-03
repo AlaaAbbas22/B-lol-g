@@ -120,6 +120,10 @@ export function PostForm({
       attributes: {
         class: 'prose dark:prose-invert prose-headings:font-bold focus:outline-none min-h-[400px] p-4 max-w-none',
       },
+      // Preserve empty paragraphs
+      parseOptions: {
+        preserveWhitespace: 'full',
+      },
       handleDrop: (view, event, slice, moved) => {
         if (!moved && event.dataTransfer && event.dataTransfer.files && event.dataTransfer.files[0]) {
           const file = event.dataTransfer.files[0];

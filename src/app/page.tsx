@@ -79,7 +79,7 @@ function Home() {
               className="text-xl text-white/80 mb-8"
               variants={heroVariants}
             >
-              Welcome to my blog. I am Alaa (lol). I found current blog apps such so I created my own awesome blog.
+              Welcome to my blog. I am Alaa (lol). I found current blog apps suck so I created my own awesome blog.
             </motion.p>
             <motion.div
               whileHover="hover"
@@ -182,9 +182,9 @@ function Home() {
             whileHover="hover"
             variants={heroVariants}
           >
-            <h2 className="text-3xl font-bold text-center mb-4">Subscribe to our Newsletter</h2>
+            <h2 className="text-3xl font-bold text-center mb-4">Subscribe to my Newsletter</h2>
             <p className="text-center text-muted-foreground mb-6">
-              Stay updated with the latest articles and news from our blog
+              Stay updated with the latest articles and news from my blog
             </p>
             <form className="flex flex-col sm:flex-row gap-4">
               <input 
